@@ -16,7 +16,7 @@ export default function NamePage() {
 
 
                     <div className="flex flex-col mb-2">
-                        <span>Nombres</span>
+                        <span>Nombre</span>
                         <input
                             type="text"
                             className="p-2 border rounded-md bg-gray-200"

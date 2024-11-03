@@ -7,7 +7,10 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-    title: "Teslo | Shop",
+    title: {
+        template: "%s - Teslo | Shop",
+        default: 'Home - Teslo | Shop'
+    },
     description: "Una tienda virtual de productos",
 };
 
